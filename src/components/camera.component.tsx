@@ -71,6 +71,8 @@ export class Camera extends Component<Props, State> {
     </View>)
   }
 
+
+
   cancel = () => {
     const { onTakeCamera } = this.props;
     onTakeCamera();
